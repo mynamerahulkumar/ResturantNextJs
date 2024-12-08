@@ -287,3 +287,71 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 .next
+# General Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.log
+*.bak
+*.swp
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Python distribution packages
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Ignore large datasets and model files (audio, video, models)
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.h5  # Model files (Keras)
+*.pkl  # Model files (Pickle)
+*.pt  # PyTorch model files
+*.hdf5  # Keras model files
+*.tar.gz
+*.zip
+
+# Ignore large training data files
+train_data/
+test_data/
+data/
+datasets/
+
+# Temporary files created by ML tools
+output/
+logs/
+
+# PyTorch and TensorFlow checkpoints
+*.ckpt
+*.pth
+*.tflite
+
+# Ignore data files from libraries (e.g., from Hugging Face, TensorFlow Datasets)
+data/
+downloads/
+
+# Ignore configuration files for specific tools
+.idea/
+.vscode/
+
+# Ignore model training checkpoints (can be large)
+checkpoint/
